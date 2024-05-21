@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking Adventures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hiking Adventures</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Hiking Adventures!</h2>
+            <p>Discover the beauty of nature through our guided hiking tours.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are passionate about exploring the great outdoors and sharing our experiences with others.</p>
+        </section>
+        <section id="form">
+            <h2>REGISTRATION FORM</h2>
+            <p>Be a part of our latest tours by filling the form</p>
+        </section>
+        <div>
+        <h1 id="join">Join Us for the Trek!</h1>          
+        <p id="below">Register below to secure your spot for the upcoming trek.</p>
+        <form action="form-submission.php" method="post">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+          <br>
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+          <br>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone">  <br>
+          <label for="experience">Trekking Experience:</label>
+          <select id="experience" name="experience">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+          <br>
+          <label for="dietary">Dietary Restrictions (optional):</label>
+          <textarea id="dietary" name="dietary" rows="4"></textarea>
+          <br>
+          <input type="submit" value="Register Now">
+        </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hiking Adventures</p>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Reach out to us to learn more about our hiking tours!</p>
+            <p> EMAIL: trekgeek@gmail.ocm</p>
+            <p>PHONE: 1111-225521</p>
+        </section>       
+        
+    </footer>
+</body>
+</html>
