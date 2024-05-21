@@ -3,43 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Webpage Layout</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px 0;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Coding Webpage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Header Section</h1>
+        <h1>Welcome to CodeLand</h1>
     </header>
     <main>
-        <p>This is the middle content section.</p>
+        <div class="content">
+            <div class="main-content">
+                <h2>Learn to Code</h2>
+                <p>Enhance your skills with the best coding tutorials and resources.</p>
+                <button id="changeContentButton">Get Inspired</button>
+            </div>
+            <aside class="users">
+                <h2>Active Users</h2>
+                <ul>
+                    <li>Alice</li>
+                    <li>Bob</li>
+                    <li>Charlie</li>
+                    <li>Dave</li>
+                </ul>
+            </aside>
+        </div>
     </main>
     <footer>
-        <p>Footer Section</p>
+        <p>&copy; 2024 CodeLand. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
