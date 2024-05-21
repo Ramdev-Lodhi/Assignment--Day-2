@@ -1,0 +1,14 @@
+body{
+    background-color :grey;
+    /* text-align = centre ; */
+    /* background-image: url(https://wallpapers.com/images/hd/profile-picture-background-u8upwya2nc2qlte7.jpg); */
+}
+header,footer,main{
+    text-align: center;
+}
+header ,footer {
+    background-color: lightpink;
+}
+h3{
+    text-decoration: underline;
+}
